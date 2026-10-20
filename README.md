@@ -1,6 +1,6 @@
 # ✨ Awesome Muse AI Skills
 
-> 15 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
+> 18 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
 
 If you run an AI agent (Muse, Claude Code, or any agent that supports skill packs), these are the highest-leverage upgrades you can install. Each one below is **free**, **open-source**, and **verified working** in a real daily-driver setup.
 
@@ -18,6 +18,7 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | [animated-short-film](https://github.com/sonlovinbot/Muse-animated-short-film) | End-to-end animated short film pipeline: character sheets → story bible → keyframes → per-scene prompts → voiceover → ffmpeg assembly | `git clone https://github.com/sonlovinbot/Muse-animated-short-film.git` |
 | [hyperframes](https://github.com/heygen-com/hyperframes) | Deterministic MP4 video from HTML/CSS animations — lyric videos, explainers, motion graphics, captioned clips | `git clone https://github.com/heygen-com/hyperframes.git` |
 | [video-use](https://github.com/browser-use/video-use) | Edit video by *conversation*: "cut the filler words, grade it warm, burn subtitles" — transcribe → cut → grade → captions | `git clone https://github.com/browser-use/video-use.git` |
+| media-revision-delivery 🛠️ *local* | Delivery discipline for revised media: versioned filenames, numeric loudness verification, verify-the-exact-file before shipping — no stale-cache or clipping surprises | local workflow skill — no public repo yet |
 
 ### 🎙️ Voice & Audio
 
@@ -25,12 +26,13 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 |---|---|---|
 | [voicestudio](https://github.com/debpalash/VoiceStudio) | Voice cloning & design, video dubbing, dictation, transcription, audiobooks (646 languages) via local backend | `git clone https://github.com/debpalash/VoiceStudio.git` |
 
-### 🌐 Web & 3D
+### 🌐 Web, 3D & Diagrams
 
 | Skill | What it does for you | Install |
 |---|---|---|
 | [scroll-craft](https://github.com/nateherkai/scroll-craft) | Premium scroll-driven landing pages — cinematic camera journeys, not generic templates | `git clone https://github.com/nateherkai/scroll-craft.git` |
 | [threeui](https://github.com/MengTo/threeui) | 50+ production Three.js components: shader heroes, particle systems, glass cards, 3D scenes | `git clone https://github.com/MengTo/threeui.git` |
+| [diagram-design](https://github.com/cathrynlavery/diagram-design) | 45 diagram types — architecture, sequence, ER models, flowcharts, Sankey, Wardley maps — as polished, branded HTML/SVG/PNG | `git clone https://github.com/cathrynlavery/diagram-design.git` |
 
 ### 💻 Engineering
 
@@ -40,6 +42,7 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | [playwright-cli](https://github.com/microsoft/playwright-cli) | Token-efficient browser automation & testing from the CLI | `git clone https://github.com/microsoft/playwright-cli.git` |
 | [reverse_engineer_anything](https://github.com/morluto/rea) | Decompile APKs, Electron apps, .NET assemblies, firmware — explain how *shipped* software actually works | `git clone https://github.com/morluto/rea.git` |
 | [android-skills](https://github.com/android/skills) | Official Google Android skills: Compose, CameraX, on-device AI, Play billing, security — 30 modules | `git clone https://github.com/android/skills.git` |
+| [headroom](https://github.com/headroomlabs-ai/headroom) | Context compression layer for agents — squeezes tool outputs, logs, RAG chunks & conversation history to a fraction of the tokens. Same answers, lower cost, runs locally | `git clone https://github.com/headroomlabs-ai/headroom.git` |
 
 ### 🌍 Research & Internet
 
@@ -104,6 +107,8 @@ git clone https://github.com/heygen-com/hyperframes.git
 | Shipping code | Cowboy commits, hope-driven | Spec → tests → review → ADR pipeline |
 | Job hunt | 50 tabs, spreadsheets, burnout | Scraped, fit-ranked, tailored, tracked |
 | Closed-source app | Guessing how a feature works | Decompile it and read the actual logic |
+| Agent token costs | Logs & tool dumps eat your whole context window | Headroom compresses them ~4–8× before the model ever sees them |
+| Architecture diagram | Whiteboard photo or default Mermaid boxes | Editorial, branded diagram in 45 types, export-ready |
 
 ---
 
