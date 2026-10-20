@@ -1,6 +1,6 @@
 # ✨ Awesome Muse AI Skills
 
-> 18 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
+> 19 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
 
 If you run an AI agent (Muse, Claude Code, or any agent that supports skill packs), these are the highest-leverage upgrades you can install. Each one below is **free**, **open-source**, and **verified working** in a real daily-driver setup.
 
@@ -33,6 +33,7 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | [scroll-craft](https://github.com/nateherkai/scroll-craft) | Premium scroll-driven landing pages — cinematic camera journeys, not generic templates | `git clone https://github.com/nateherkai/scroll-craft.git` |
 | [threeui](https://github.com/MengTo/threeui) | 50+ production Three.js components: shader heroes, particle systems, glass cards, 3D scenes | `git clone https://github.com/MengTo/threeui.git` |
 | [diagram-design](https://github.com/cathrynlavery/diagram-design) | 45 diagram types — architecture, sequence, ER models, flowcharts, Sankey, Wardley maps — as polished, branded HTML/SVG/PNG | `git clone https://github.com/cathrynlavery/diagram-design.git` |
+| [emilkowalski-skills](https://github.com/emilkowalski/skills) | 15 design-engineering skills by Emil Kowalski — UI polish, animation craft, prototyping, and the invisible details that make software feel right instead of generic | `npx skills@latest add emilkowalski/skills` |
 
 ### 💻 Engineering
 
