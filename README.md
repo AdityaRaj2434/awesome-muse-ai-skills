@@ -1,6 +1,6 @@
 # ✨ Awesome Muse AI Skills
 
-> 19 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
+> 21 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
 
 If you run an AI agent (Muse, Claude Code, or any agent that supports skill packs), these are the highest-leverage upgrades you can install. Each one below is **free**, **open-source**, and **verified working** in a real daily-driver setup.
 
@@ -34,6 +34,7 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | [threeui](https://github.com/MengTo/threeui) | 50+ production Three.js components: shader heroes, particle systems, glass cards, 3D scenes | `git clone https://github.com/MengTo/threeui.git` |
 | [diagram-design](https://github.com/cathrynlavery/diagram-design) | 45 diagram types — architecture, sequence, ER models, flowcharts, Sankey, Wardley maps — as polished, branded HTML/SVG/PNG | `git clone https://github.com/cathrynlavery/diagram-design.git` |
 | [emilkowalski-skills](https://github.com/emilkowalski/skills) | 15 design-engineering skills by Emil Kowalski — UI polish, animation craft, prototyping, and the invisible details that make software feel right instead of generic | `npx skills@latest add emilkowalski/skills` |
+| [anatomy-isometric](https://github.com/wheresryan22/anatomy) | Explains a technical idea by *building* it as a working isometric machine in SVG/WebGL — dial gauges, plotters, arcade cabinets — every number from a live model | `git clone https://github.com/wheresryan22/anatomy.git` (installs into `custom-skills/anatomy-isometric/`) |
 
 ### 💻 Engineering
 
@@ -44,6 +45,7 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | [reverse_engineer_anything](https://github.com/morluto/rea) | Decompile APKs, Electron apps, .NET assemblies, firmware — explain how *shipped* software actually works | `git clone https://github.com/morluto/rea.git` |
 | [android-skills](https://github.com/android/skills) | Official Google Android skills: Compose, CameraX, on-device AI, Play billing, security — 30 modules | `git clone https://github.com/android/skills.git` |
 | [headroom](https://github.com/headroomlabs-ai/headroom) | Context compression layer for agents — squeezes tool outputs, logs, RAG chunks & conversation history to a fraction of the tokens. Same answers, lower cost, runs locally | `git clone https://github.com/headroomlabs-ai/headroom.git` |
+| [mattpocock-skills](https://github.com/mattpocock/skills) (~300k ⭐) | Matt Pocock's daily-driver skill pack: clarifying-question loops before coding, spec→implementation, TDD, retrospectives, codebase wayfinding, plus writing docs agents actually follow | `git clone https://github.com/mattpocock/skills.git` |
 
 ### 🌍 Research & Internet
 
@@ -110,6 +112,8 @@ git clone https://github.com/heygen-com/hyperframes.git
 | Closed-source app | Guessing how a feature works | Decompile it and read the actual logic |
 | Agent token costs | Logs & tool dumps eat your whole context window | Headroom compresses them ~4–8× before the model ever sees them |
 | Architecture diagram | Whiteboard photo or default Mermaid boxes | Editorial, branded diagram in 45 types, export-ready |
+| Technical explainer graphic | Generic stock illustration, static and vague | Working isometric "machine" figure — animated, every number from a live model |
+| Vague build request | Agent builds the wrong thing from fuzzy instructions | Clarifying-question loop + spec pipeline before any code exists |
 
 ---
 
