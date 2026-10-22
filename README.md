@@ -1,6 +1,6 @@
 # ✨ Awesome Muse AI Skills
 
-> 21 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
+> 23 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
 
 If you run an AI agent (Muse, Claude Code, or any agent that supports skill packs), these are the highest-leverage upgrades you can install. Each one below is **free**, **open-source**, and **verified working** in a real daily-driver setup.
 
@@ -18,6 +18,8 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | [animated-short-film](https://github.com/sonlovinbot/Muse-animated-short-film) | End-to-end animated short film pipeline: character sheets → story bible → keyframes → per-scene prompts → voiceover → ffmpeg assembly | `git clone https://github.com/sonlovinbot/Muse-animated-short-film.git` |
 | [hyperframes](https://github.com/heygen-com/hyperframes) | Deterministic MP4 video from HTML/CSS animations — lyric videos, explainers, motion graphics, captioned clips | `git clone https://github.com/heygen-com/hyperframes.git` |
 | [video-use](https://github.com/browser-use/video-use) | Edit video by *conversation*: "cut the filler words, grade it warm, burn subtitles" — transcribe → cut → grade → captions | `git clone https://github.com/browser-use/video-use.git` |
+| [openfilm](https://github.com/openfilm/openfilm) | Turn any coding agent into a video agent: it writes the film as animated web pages (`film.html` + `window.film` `frame(t)` contract), a local Studio editor lets you change anything by hand, then export MP4/GIF/stems or Premiere/Final Cut timelines | `git clone https://github.com/openfilm/openfilm.git` |
+| [ai-video-editor](https://github.com/MartinDelophy/ai-video-editor) | Local-first browser AI video editor + agent skill: CapCut-style multi-track timeline with local AI captions, voiceover, music & repair, reversible declarative edits, deterministic offline export | `git clone https://github.com/MartinDelophy/ai-video-editor.git` |
 | media-revision-delivery 🛠️ *local* | Delivery discipline for revised media: versioned filenames, numeric loudness verification, verify-the-exact-file before shipping — no stale-cache or clipping surprises | local workflow skill — no public repo yet |
 
 ### 🎙️ Voice & Audio
@@ -114,6 +116,8 @@ git clone https://github.com/heygen-com/hyperframes.git
 | Architecture diagram | Whiteboard photo or default Mermaid boxes | Editorial, branded diagram in 45 types, export-ready |
 | Technical explainer graphic | Generic stock illustration, static and vague | Working isometric "machine" figure — animated, every number from a live model |
 | Vague build request | Agent builds the wrong thing from fuzzy instructions | Clarifying-question loop + spec pipeline before any code exists |
+| Launch / explainer video | Paying for motion design or fighting After Effects | Agent writes it as web pages, you edit it in Studio, render MP4 |
+| Reel / cut from raw footage | Timeline fiddling for hours | Agent makes reversible edits on a real multi-track timeline, AI captions + voiceover local |
 
 ---
 
