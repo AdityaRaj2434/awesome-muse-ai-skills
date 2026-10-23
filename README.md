@@ -1,6 +1,6 @@
 # ✨ Awesome Muse AI Skills
 
-> 23 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
+> 25 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
 
 If you run an AI agent (Muse, Claude Code, or any agent that supports skill packs), these are the highest-leverage upgrades you can install. Each one below is **free**, **open-source**, and **verified working** in a real daily-driver setup.
 
@@ -48,6 +48,8 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | [android-skills](https://github.com/android/skills) | Official Google Android skills: Compose, CameraX, on-device AI, Play billing, security — 30 modules | `git clone https://github.com/android/skills.git` |
 | [headroom](https://github.com/headroomlabs-ai/headroom) | Context compression layer for agents — squeezes tool outputs, logs, RAG chunks & conversation history to a fraction of the tokens. Same answers, lower cost, runs locally | `git clone https://github.com/headroomlabs-ai/headroom.git` |
 | [mattpocock-skills](https://github.com/mattpocock/skills) (~300k ⭐) | Matt Pocock's daily-driver skill pack: clarifying-question loops before coding, spec→implementation, TDD, retrospectives, codebase wayfinding, plus writing docs agents actually follow | `git clone https://github.com/mattpocock/skills.git` |
+| [security-audit](https://github.com/cloudflare/security-audit-skill) (~40k ⭐) | Turn your coding agent into a security auditor: 6-phase recon→hunt→validate→report workflow, isolated hunter agents, adversarial verification of every finding, machine-readable findings ledger | `git clone https://github.com/cloudflare/security-audit-skill.git` |
+| [ponytail](https://github.com/DietrichGebert/ponytail) (~174k ⭐) | Lazy senior-dev mode for any coding task: the smallest change that fully solves it — YAGNI, reuse before inventing, never cut validation/security/error handling, plus `/ponytail-review` and `/ponytail-audit` rituals | `git clone https://github.com/DietrichGebert/ponytail.git` |
 
 ### 🌍 Research & Internet
 
@@ -118,6 +120,8 @@ git clone https://github.com/heygen-com/hyperframes.git
 | Vague build request | Agent builds the wrong thing from fuzzy instructions | Clarifying-question loop + spec pipeline before any code exists |
 | Launch / explainer video | Paying for motion design or fighting After Effects | Agent writes it as web pages, you edit it in Studio, render MP4 |
 | Reel / cut from raw footage | Timeline fiddling for hours | Agent makes reversible edits on a real multi-track timeline, AI captions + voiceover local |
+| Security review of a build | Grep-and-hope, findings with no evidence trail | Agent runs a 6-phase audit — coverage ledger, isolated hunters, each finding adversarially verified before it lands in the report |
+| Code review | Nitpicks and vague worries | Senior-dev review ritual: Must/Should/Nice-to-have findings, each with the problem, the smallest fix, and what happens if you skip it — plus lean cuts that delete code |
 
 ---
 
