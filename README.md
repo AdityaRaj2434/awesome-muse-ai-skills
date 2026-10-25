@@ -1,6 +1,6 @@
 # ✨ Awesome Muse AI Skills
 
-> 25 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
+> 30 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
 
 If you run an AI agent (Muse, Claude Code, or any agent that supports skill packs), these are the highest-leverage upgrades you can install. Each one below is **free**, **open-source**, and **verified working** in a real daily-driver setup.
 
@@ -33,6 +33,7 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | Skill | What it does for you | Install |
 |---|---|---|
 | [scroll-craft](https://github.com/nateherkai/scroll-craft) | Premium scroll-driven landing pages — cinematic camera journeys, not generic templates | `git clone https://github.com/nateherkai/scroll-craft.git` |
+| [hallmark](https://github.com/Nutlope/hallmark) (~32k ⭐) | Anti-AI-slop design skill: 48 material themes, a hard floor against AI-generated tells (no purple-blue gradients, no card-in-card, no invented metrics), browser lint (`sloplint`) plus redesign/audit verbs for existing pages | `git clone https://github.com/Nutlope/hallmark.git` (skill lives at `skills/hallmark/`) |
 | [threeui](https://github.com/MengTo/threeui) | 50+ production Three.js components: shader heroes, particle systems, glass cards, 3D scenes | `git clone https://github.com/MengTo/threeui.git` |
 | [diagram-design](https://github.com/cathrynlavery/diagram-design) | 45 diagram types — architecture, sequence, ER models, flowcharts, Sankey, Wardley maps — as polished, branded HTML/SVG/PNG | `git clone https://github.com/cathrynlavery/diagram-design.git` |
 | [emilkowalski-skills](https://github.com/emilkowalski/skills) | 15 design-engineering skills by Emil Kowalski — UI polish, animation craft, prototyping, and the invisible details that make software feel right instead of generic | `npx skills@latest add emilkowalski/skills` |
@@ -50,6 +51,8 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | [mattpocock-skills](https://github.com/mattpocock/skills) (~300k ⭐) | Matt Pocock's daily-driver skill pack: clarifying-question loops before coding, spec→implementation, TDD, retrospectives, codebase wayfinding, plus writing docs agents actually follow | `git clone https://github.com/mattpocock/skills.git` |
 | [security-audit](https://github.com/cloudflare/security-audit-skill) (~40k ⭐) | Turn your coding agent into a security auditor: 6-phase recon→hunt→validate→report workflow, isolated hunter agents, adversarial verification of every finding, machine-readable findings ledger | `git clone https://github.com/cloudflare/security-audit-skill.git` |
 | [ponytail](https://github.com/DietrichGebert/ponytail) (~174k ⭐) | Lazy senior-dev mode for any coding task: the smallest change that fully solves it — YAGNI, reuse before inventing, never cut validation/security/error handling, plus `/ponytail-review` and `/ponytail-audit` rituals | `git clone https://github.com/DietrichGebert/ponytail.git` |
+| [openshell](https://github.com/NVIDIA/OpenShell) (~19k ⭐) | Safe private runtime for autonomous agents: kernel-enforced sandboxes, declared file/syscall/network policies, credential brokering, formally verified policy changes — plus agent skills for CLI, policy authoring & debugging | `git clone https://github.com/NVIDIA/OpenShell.git` |
+| [graphify](https://github.com/Graphify-Labs/graphify) (~135k ⭐) | Turn any codebase into a queryable knowledge graph: local deterministic AST parsing, every edge tagged EXTRACTED or INFERRED, no vector store, 0 LLM credits for code maps — ask questions instead of grepping | `git clone https://github.com/Graphify-Labs/graphify.git` (CLI: `uv tool install graphifyy`) |
 
 ### 🌍 Research & Internet
 
@@ -62,12 +65,14 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | Skill | What it does for you | Install |
 |---|---|---|
 | [ai-job-search](https://github.com/MadsLorentzen/ai-job-search) (~50k ⭐) | Automate the job hunt: portal scraping, fit-ranked shortlists, tailored CVs & cover letters, interview prep, outcome tracking | `git clone https://github.com/MadsLorentzen/ai-job-search.git` |
+| apply_sweep_checkpointing 🛠️ *local* | Work a multi-employer application sweep one employer at a time: finish each employer's outcome and checkpoint it (fields filled, result, blocker) before opening the next — stop cleanly on user-only blocks, never re-apply blind | local workflow skill — no public repo yet |
 
 ### ✍️ Writing
 
 | Skill | What it does for you | Install |
 |---|---|---|
 | [humanizer](https://github.com/blader/humanizer) | Rewrites AI-sounding prose so it reads human — kills the tells (no "delve", no not-X-but-Y contrasts) | `git clone https://github.com/blader/humanizer.git` |
+| outward_identity_discipline 🛠️ *local* | Every outward message goes out in first person as *you* — no mention of any assistant, agent, or AI — with a pre-send identity check and a platform-automation-rules check before disclosing how the work was done | local workflow skill — no public repo yet |
 
 ### 🤖 Multi-Agent Orchestration
 
@@ -122,6 +127,11 @@ git clone https://github.com/heygen-com/hyperframes.git
 | Reel / cut from raw footage | Timeline fiddling for hours | Agent makes reversible edits on a real multi-track timeline, AI captions + voiceover local |
 | Security review of a build | Grep-and-hope, findings with no evidence trail | Agent runs a 6-phase audit — coverage ledger, isolated hunters, each finding adversarially verified before it lands in the report |
 | Code review | Nitpicks and vague worries | Senior-dev review ritual: Must/Should/Nice-to-have findings, each with the problem, the smallest fix, and what happens if you skip it — plus lean cuts that delete code |
+| Running agents on real work | Giving agents your whole filesystem and API keys, hoping nothing leaks | Each agent runs in a kernel-enforced sandbox with declared policies — credentials injected only for approved endpoints |
+| New website or page | Same AI-template tells every time: purple gradients, card grids, eyebrow labels | Hallmark's hard floor + a dealt material theme — the page looks designed, then linted in a real browser before it ships |
+| Understanding a big codebase | Grepping files one by one, losing the architecture | Build a knowledge graph once, then query it: "what calls Y?", "trace the data flow", every link labelled as read or inferred |
+| Client / platform outreach drafts | Drafts that accidentally reveal an AI is operating the account | Every message written first-person as you with a pre-send identity check — platform automation rules respected before disclosing how work was done |
+| Multi-employer application sweep | Juggling employers, losing track of who was applied where, re-applying blind | One employer at a time, each outcome checkpointed before moving on — user-only blocks named, duplicates checked before any re-apply |
 
 ---
 
