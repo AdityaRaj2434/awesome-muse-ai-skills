@@ -1,6 +1,6 @@
 # ✨ Awesome Muse AI Skills
 
-> 30 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
+> 31 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
 
 If you run an AI agent (Muse, Claude Code, or any agent that supports skill packs), these are the highest-leverage upgrades you can install. Each one below is **free**, **open-source**, and **verified working** in a real daily-driver setup.
 
@@ -80,6 +80,12 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 |---|---|---|
 | [paperclip](https://github.com/paperclipai/paperclip) (~100k ⭐) | 9 skills for running agent teams: heartbeat tasks, boards, hiring agents, plan→tasks, AgentMail, Slack | `git clone https://github.com/paperclipai/paperclip.git` |
 
+### 📱 Social & Publishing
+
+| Skill | What it does for you | Install |
+|---|---|---|
+| social_publishing_studio_uploads 🛠️ *local* | Corrects browser-based YouTube Studio uploads when the file picker stalls or approval is pending: one bounded retry, then a Content-tab recheck and a manual handoff package instead of blind retries or duplicate uploads | local workflow skill — no public repo yet (amends the social-publishing skill) |
+
 > 🛠️ **ai-video-director** is a custom skill built for this setup (no public upstream yet) — included here as a pattern you can adapt: directing + producing AI video with phone apps as the generation backend.
 
 ---
@@ -132,6 +138,7 @@ git clone https://github.com/heygen-com/hyperframes.git
 | Understanding a big codebase | Grepping files one by one, losing the architecture | Build a knowledge graph once, then query it: "what calls Y?", "trace the data flow", every link labelled as read or inferred |
 | Client / platform outreach drafts | Drafts that accidentally reveal an AI is operating the account | Every message written first-person as you with a pre-send identity check — platform automation rules respected before disclosing how work was done |
 | Multi-employer application sweep | Juggling employers, losing track of who was applied where, re-applying blind | One employer at a time, each outcome checkpointed before moving on — user-only blocks named, duplicates checked before any re-apply |
+| Stalled YouTube Studio upload | Reopening, reclicking and retrying the same file picker, risking a duplicate upload | One bounded retry, then a Content-tab recheck for an existing video/draft and a ready manual-upload package with its exact metadata |
 
 ---
 
