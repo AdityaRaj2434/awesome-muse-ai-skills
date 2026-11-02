@@ -1,6 +1,6 @@
 # ✨ Awesome Muse AI Skills
 
-> 31 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
+> 33 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
 
 If you run an AI agent (Muse, Claude Code, or any agent that supports skill packs), these are the highest-leverage upgrades you can install. Each one below is **free**, **open-source**, and **verified working** in a real daily-driver setup.
 
@@ -20,6 +20,7 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | [video-use](https://github.com/browser-use/video-use) | Edit video by *conversation*: "cut the filler words, grade it warm, burn subtitles" — transcribe → cut → grade → captions | `git clone https://github.com/browser-use/video-use.git` |
 | [openfilm](https://github.com/openfilm/openfilm) | Turn any coding agent into a video agent: it writes the film as animated web pages (`film.html` + `window.film` `frame(t)` contract), a local Studio editor lets you change anything by hand, then export MP4/GIF/stems or Premiere/Final Cut timelines | `git clone https://github.com/openfilm/openfilm.git` |
 | [ai-video-editor](https://github.com/MartinDelophy/ai-video-editor) | Local-first browser AI video editor + agent skill: CapCut-style multi-track timeline with local AI captions, voiceover, music & repair, reversible declarative edits, deterministic offline export | `git clone https://github.com/MartinDelophy/ai-video-editor.git` |
+| [story-animator](https://github.com/deenukhan/story-animator) | One line → finished narrated 2D animated story film (MP4, 16:9/9:16/4:5): story written by the agent, ElevenLabs narration, every frame drawn in code as SVG in Remotion — no AI image or video generation | `git clone https://github.com/deenukhan/story-animator.git` (skill lives at `skills/story-animator/`) |
 | media-revision-delivery 🛠️ *local* | Delivery discipline for revised media: versioned filenames, numeric loudness verification, verify-the-exact-file before shipping — no stale-cache or clipping surprises | local workflow skill — no public repo yet |
 
 ### 🎙️ Voice & Audio
@@ -35,6 +36,7 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | [scroll-craft](https://github.com/nateherkai/scroll-craft) | Premium scroll-driven landing pages — cinematic camera journeys, not generic templates | `git clone https://github.com/nateherkai/scroll-craft.git` |
 | [hallmark](https://github.com/Nutlope/hallmark) (~32k ⭐) | Anti-AI-slop design skill: 48 material themes, a hard floor against AI-generated tells (no purple-blue gradients, no card-in-card, no invented metrics), browser lint (`sloplint`) plus redesign/audit verbs for existing pages | `git clone https://github.com/Nutlope/hallmark.git` (skill lives at `skills/hallmark/`) |
 | [threeui](https://github.com/MengTo/threeui) | 50+ production Three.js components: shader heroes, particle systems, glass cards, 3D scenes | `git clone https://github.com/MengTo/threeui.git` |
+| [prompt-motion-web-design](https://prompt-motion.com) 🛠️ *custom* | Website design upgrade from Prompt Motion patterns: five-section motion briefs (inputs/direction/structure/build/gotchas/start), one signature moment, one typeface + ≤3 colours, named camera moves only, springs/physics over linear tweens, frame-per-shot check before render | custom skill, no public upstream yet — patterns adapted from prompt-motion.com, honest reuse (motion structure only, never another creator's brand/copy/assets) |
 | [diagram-design](https://github.com/cathrynlavery/diagram-design) | 45 diagram types — architecture, sequence, ER models, flowcharts, Sankey, Wardley maps — as polished, branded HTML/SVG/PNG | `git clone https://github.com/cathrynlavery/diagram-design.git` |
 | [emilkowalski-skills](https://github.com/emilkowalski/skills) | 15 design-engineering skills by Emil Kowalski — UI polish, animation craft, prototyping, and the invisible details that make software feel right instead of generic | `npx skills@latest add emilkowalski/skills` |
 | [anatomy-isometric](https://github.com/wheresryan22/anatomy) | Explains a technical idea by *building* it as a working isometric machine in SVG/WebGL — dial gauges, plotters, arcade cabinets — every number from a live model | `git clone https://github.com/wheresryan22/anatomy.git` (installs into `custom-skills/anatomy-isometric/`) |
@@ -116,10 +118,12 @@ git clone https://github.com/heygen-com/hyperframes.git
 |---|---|---|
 | Editing a video | Wrestling ffmpeg flags or Premiere timelines for an hour | *"Cut the filler words, warm up the grade, burn subtitles"* — done |
 | Landing page | Generic AI-template look, card grids | Cinematic scroll-driven 3D journey |
+| Website showcase | Static screenshots or a plain screen recording | One continuous camera fly-over with a named signature moment, springs not tweens, frame-per-shot check |
 | Voiceover | Robotic TTS everyone recognizes | Cloned / emotive voice, dubbed video |
 | Research | Copy-pasting 10 articles by hand | One command pulls pages + YouTube subtitles + GitHub code |
 | LinkedIn post | Obviously AI-written, zero engagement | Humanizer pass — reads like you wrote it |
 | Animated short film | Months of animation work | Character sheets → keyframes → VO → assembled film |
+| Animated story video | Hiring an animator or wrestling keyframes | One line → narrated 2D animated MP4, every frame drawn in code |
 | Lyric / explainer video | After Effects learning curve | HTML/CSS animation → deterministic MP4 |
 | Android bug | Docs spelunking for an hour | Official Google skill answers with the right API |
 | Shipping code | Cowboy commits, hope-driven | Spec → tests → review → ADR pipeline |
