@@ -1,6 +1,6 @@
 # ✨ Awesome Muse AI Skills
 
-> 33 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
+> 37 battle-tested agent skills that turn **Muse AI** from a chatbot into a video studio, voice lab, 3D workshop, research assistant, and engineering team — all installed, tested, and documented with copy-paste install commands.
 
 If you run an AI agent (Muse, Claude Code, or any agent that supports skill packs), these are the highest-leverage upgrades you can install. Each one below is **free**, **open-source**, and **verified working** in a real daily-driver setup.
 
@@ -22,6 +22,10 @@ If you run an AI agent (Muse, Claude Code, or any agent that supports skill pack
 | [ai-video-editor](https://github.com/MartinDelophy/ai-video-editor) | Local-first browser AI video editor + agent skill: CapCut-style multi-track timeline with local AI captions, voiceover, music & repair, reversible declarative edits, deterministic offline export | `git clone https://github.com/MartinDelophy/ai-video-editor.git` |
 | [story-animator](https://github.com/deenukhan/story-animator) | One line → finished narrated 2D animated story film (MP4, 16:9/9:16/4:5): story written by the agent, ElevenLabs narration, every frame drawn in code as SVG in Remotion — no AI image or video generation | `git clone https://github.com/deenukhan/story-animator.git` (skill lives at `skills/story-animator/`) |
 | media-revision-delivery 🛠️ *local* | Delivery discipline for revised media: versioned filenames, numeric loudness verification, verify-the-exact-file before shipping — no stale-cache or clipping surprises | local workflow skill — no public repo yet |
+| [pink-spotify-clip-lyrics](https://aanshai.vercel.app/skills) 🛠️ *custom* | Poetic 16:9 lyric video in the pink Spotify-card style: tilted pink lyrics card, motion graphics per line, emotional clips softly behind the words, word-timed to the voice | custom skill, no public upstream yet — adapted from @aansh.ai's free skills page |
+| [night-glow-lyrics](https://aanshai.vercel.app/skills) 🛠️ *custom* | Night-blue glowing emotional lyric video: glowing white serif lyrics over dreamy clips, styles that shift with the music, last line dissolving into light | custom skill, no public upstream yet — adapted from @aansh.ai's free skills page |
+| [red-rap-lyrics](https://aanshai.vercel.app/skills) 🛠️ *custom* | Fast red rap lyric video in 4 looks: red glass lyrics card, neon words on a rainy street, particle portrait of the rapper, 3D word tower, ending on a DAMN! slam | custom skill, no public upstream yet — adapted from @aansh.ai's free skills page |
+| [glass-to-neon-lyrics](https://aanshai.vercel.app/skills) 🛠️ *custom* | Emotional 16:9 lyric video that changes mood with the song: red glass card that shatters, full-screen clips, fire burning inside giant letters, pink neon rain ending | custom skill, no public upstream yet — adapted from @aansh.ai's free skills page |
 
 ### 🎙️ Voice & Audio
 
@@ -125,6 +129,7 @@ git clone https://github.com/heygen-com/hyperframes.git
 | Animated short film | Months of animation work | Character sheets → keyframes → VO → assembled film |
 | Animated story video | Hiring an animator or wrestling keyframes | One line → narrated 2D animated MP4, every frame drawn in code |
 | Lyric / explainer video | After Effects learning curve | HTML/CSS animation → deterministic MP4 |
+| Lyric video (song + lyrics) | Hunting templates or hand-keyframing every word | Four ready styles — pink Spotify card, night-blue glow, red rap in 4 looks, red glass → pink neon — every word force-aligned to the voice |
 | Android bug | Docs spelunking for an hour | Official Google skill answers with the right API |
 | Shipping code | Cowboy commits, hope-driven | Spec → tests → review → ADR pipeline |
 | Job hunt | 50 tabs, spreadsheets, burnout | Scraped, fit-ranked, tailored, tracked |
